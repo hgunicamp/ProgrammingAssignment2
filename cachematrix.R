@@ -55,7 +55,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ##     calculates its inverse, updates the list and returns the inverse
 ##     calculed.
 
-
 cacheSolve <- function(x, ...) {
 	inverse <- x$GetInverse()
 	if (!is.null(inverse)) {
